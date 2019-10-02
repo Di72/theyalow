@@ -1,3 +1,3 @@
 # theyalow
 theyalow. Difficulty level 1
-https://github.com/di72/theyalow#theyalow
+https://github.com/di72/master
