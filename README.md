@@ -1,1 +1,1 @@
-https://di72.github.io/theyalow/
+https://di72.github.io/master/
