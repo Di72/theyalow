@@ -1,0 +1,629 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    line-height: 0;
+    font-family: "Segoe WP", sans-serif;
+  }
+
+  body{
+      background: black;
+
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  html {
+    font-family: "Segoe WP", sans-serif;
+  }
+
+  .theyallow{
+    color:white;
+    font-size: 21px;
+    color: #ffffff;
+    font-family: "Lucida Sans", Arial;
+    font-style: italic;
+    position: relative;
+    left: 360px;
+  }
+
+  .ab_ser_con{
+    font-size:14px;
+  }
+
+  .aboutus-destkop{
+    background-color: #f5c601;
+    width: 172px;
+    height: 42px;
+    color: #b59208;
+    border-right-color: #e5be01; 
+    border-right-style: solid; 
+    border-right-width: 1px; 
+  }
+
+  .aboutus-destkop:hover{
+    background-color: #000000;
+    color: white;
+  }
+
+  .service-destkop{
+    background-color: #f5c601;
+    width: 132px;
+    height: 42px;
+    color: #b59208;
+    border-right-color: #e5be01;
+    border-right-style: solid; 
+    border-right-width: 1px; 
+   
+  }
+
+  .service-destkop:hover{
+    background-color: #000000;
+    color: white;
+  }
+  
+  .contact-destkop{
+    background-color: #f5c601;
+    width: 148px;
+    height: 42px;
+    color: #b59208;
+  }
+  .contact-destkop:hover{
+    background-color: #000000;
+    color: white;
+  }
+
+  .videopapu{
+    padding-top: 168px;
+    padding-left: 150px;
+  }
+
+  .videopapu-mobail{
+    display: none;
+  }
+  .header {
+    background:url(Layer20.png);
+    max-width: 1300px;
+    min-height: 566px ;
+    margin: 0 auto;
+    
+  }
+  .prePage .prePageBG{
+
+    top: 300px;
+    left: 0px;
+    position: absolute;
+}
+
+.prePage .prePageBottom {
+    top: 319px;
+    left: 8px;
+    position: absolute;
+    z-index: 9999;
+}
+.nextPage .nextPageBG {
+    top: 300px;
+    right: 0px;
+    position: absolute;
+}
+.nextPage .nextPageBottom {
+    top: 319px;
+    right: 8px;
+    position: absolute;
+    z-index: 9999;
+}
+  .svg{
+    background:url(Layer3.png);
+    max-width: 1300px;
+    min-height: 213px ;
+    
+    margin: 0 auto;
+    padding-left: 138px;
+    padding-right: 138px;
+    box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+
+    -ms-box-orient: horizontal;
+
+    
+    display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-content: center;
+    }
+        
+      .shape {
+        flex-grow: 1;
+      }
+.cl1{
+  padding-bottom: 30px;
+  }
+  .iconText {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 730px;
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    text-align: center;
+  }
+  span.iconBDtext {
+    margin-left: -31px;
+  }
+  .iconCusttext {
+    margin-left: 176px;
+  }
+  .iconItsFreetext {
+    margin-left: 200px;
+  }
+
+  .info{
+    background:url(Layer10copy3.png);
+    max-width: 1300px;
+    min-height: 508px ;
+    
+    margin: 0 auto;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    width: 900px;
+    height: 15px;
+      background: white;
+    opacity: 0.6;
+    border-radius: 10px;
+    position: relative;
+    top: 220px;
+    left: 210px;
+
+    display:block;
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 15px;
+    background: #ed9f00;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.info-mobail:nth-child(1) {
+ padding-left: 10px;
+ padding-top: 20px;
+ font-size: 34px;
+ font-weight: 400;
+ color:white;
+ font-family: "PT Sans",Arial, Helvetica, sans-serif;
+ text-transform: uppercase;
+ width: 100%;
+ letter-spacing: 2px;
+ position: relative;
+ top: 34px;
+ left: 130px;
+}
+
+.info-mobail:nth-child(2) {
+  width: 341px;
+  height: 233px;
+  position: relative;
+  left: 140px;
+  top: 90px;
+  
+}
+
+.info-mobail:nth-child(3) {
+  width: 315px;
+  height: 234px;
+  position: relative;
+  left: 136px;
+  top: 90px;
+}
+.info-mobail:nth-child(4){
+  display: none;
+}
+
+.info-mobail:nth-child(5){
+  width: 329px;
+  height: 233px;
+  position: relative;
+  left: 165px;
+  top: 90px;
+}
+
+  .about{
+    background:url(Layer32.png);
+    max-width: 1300px;
+    min-height: 498px ;
+   
+    margin: 0 auto;
+  }
+  .foot{
+    background: #4c4c4c;
+    max-width: 1300px;
+    min-height: 64px;
+     
+    margin: 0 auto;
+    box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+    
+  }
+
+  .logo_podval{
+   
+    position: relative;
+    left: 135px;
+  }
+  .aboutpic{
+        padding-top: 3.7%;
+        padding-left: 10.2%;
+  }
+ 
+  .about-mobail{
+    display: none;
+  }
+  .upheader-mobail{
+    display: none;
+  }
+  .block_t {
+    display: none;
+  }
+
+  
+
+   h2{
+    text-transform: uppercase;
+    font-size: 63px;
+      letter-spacing: 1px;
+    color: #f5c506;
+     font-family: "Asap",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+        text-align: center;
+    display: block;
+    top: 258px;
+    left: 750px;
+    position: absolute;
+}
+
+.Line{
+  position: absolute;
+  top: 565px;
+}
+
+.line1 {
+        position: absolute;
+        left: 138px;
+    }
+    .line2 {
+        position: absolute;
+        left: 480px;
+    }
+    .line3 {
+        position: absolute;
+        left: 818px;
+
+    }
+    .line4 {
+        position: absolute;
+        left: 1161px;
+    }
+
+    .shape12{
+      position: relative;
+      bottom:20px;
+      left:10px;
+    }
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .pointer:hover{
+    transform: scale(1.7);
+    
+   }
+
+   .pointer:after{
+    transform: scale(1.1);
+    
+   }
+
+   .upheader{
+     display: none;
+   }
+
+  
+  @media only screen and (max-width: 640px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+
+    
+    .header{
+      background:none;
+      width: 640px;
+      min-height: 328px ;
+    }
+    .svg{
+      width: 640px;
+      min-height: 171px ;
+      
+    }
+    .foot{
+      background: url(podval.png);
+      width: 640px;
+      min-height: 43px;
+    }
+    body{
+      background: white;
+    }
+    .aboutpic{
+    
+    }
+    .info-mobail{ 
+      display:block;
+    }
+
+    .info-mobail:nth-child(1) {
+      display: none;
+    }
+    .info-mobail:nth-child(2) {
+
+      width: 308px;
+      height: 250px;
+      float: left;
+      padding: 9px 0px 9px 9px;
+      position:static;
+    }
+    .info-mobail:nth-child(3){
+      width: 324px;
+      height: 250px;
+      float: right;
+      padding: 9px 9px 9px 0px;
+      position:static;
+    }
+    .info-mobail:nth-child(4){
+      display: block;
+      background: url(twitter.png);
+    
+      position: relative;
+      top: 249px;
+    }
+
+    .info-mobail:nth-child(5){
+      display: none;
+    }
+
+    
+    .info {
+      background: none;
+      max-width: 640px;
+      min-height: 483px ;
+      margin-right : 0px;
+    }
+    .about-destkop{
+      display: none;
+    }
+    .about-mobail{
+      display: block;
+      width: 640px;
+    }
+    .about{
+      background:none;
+      min-height: 466px ;
+    }
+    .upheader-mobail{
+      display: block;
+    }
+    .upheader-mobail:nth-child(1){
+      float: left;
+    }
+    .upheader-mobail:nth-child(2){
+      float: right;
+    }
+
+    
+
+    .videopapu{
+      display: none;
+    }
+
+    .videopapu-mobail{
+  
+      
+      display: block;
+      
+    }
+
+    .slider{
+      display: none;
+    }
+
+  
+    .ab_ser_con{
+      display: none;
+    }
+    .button{
+      width: 68px;
+      height: 30px;
+      border-radius: 0px 10px 10px 0px;
+      margin-left: -14px;
+      background-color: #d2900e;
+      color: #fff;
+      border:none;
+  }
+   .block_t {
+     display: block;
+     position: relative;
+     bottom: 58px;
+     left: 350px;
+   }
+
+   .slidecontainer{
+     display: none;
+   }
+  
+   .pointer{
+    transition: transform .2s;
+   }
+
+   .pointer:hover{
+    transform: scale(1.7);
+    
+   }
+   .pointer:after{
+    transform: scale(1.1);
+    
+   }
+   .thecool{
+     display:none;
+   }
+   .Line{
+    display:none;
+   }
+   .logo_podval{
+     display: none;
+   }
+   .upheader{
+     display:block;
+    float: left;
+  }
+   .aboutus-mob{
+    background-color: #f5c601;
+    width: 171px;
+    height: 62px;
+    float: left;
+    padding-top:5px;
+    border-right-color: #e5be01; /* Цвет линии справа */
+    border-right-style: solid; /* Стиль линии */
+    border-right-width: 1px; /* Толщина линии */
+   }
+   .service-mob{
+    background-color: #f5c601;
+    width: 132px;
+    height: 62px;
+    float: left;
+    padding-top:5px;
+    border-right-color: #e5be01; /* Цвет линии справа */
+    border-right-style: solid; /* Стиль линии */
+    border-right-width: 1px; /* Толщина линии */
+  }
+  .contact-mob{
+    background-color: #f5c601;
+    width: 151px;
+    height: 62px;
+    float: left;
+  
+    padding-top:5px;
+  }
+
+
+  .icon-upheader{
+    padding-top:15px;
+    padding-left:10px;
+  }
+  .aboutus-mob :hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  .service-mob :hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  .contact-mob :hover {
+    color: white;
+    transform: scale(1.1);
+  }
+
+   .aboutus-mob:after{
+    transform: scale(1.1);
+   }
+   .service-mob:after{
+    transform: scale(1.1);
+   }
+   .contact-mob:after{
+    transform: scale(1.1);
+   }
+
+  .name_bar{
+    font-size: 19px;
+    color: #b59208;
+    position: relative;
+    left: 45px;
+    bottom: 9px;
+  }
+
+  .svg{
+    background:url(Layer3.png);
+    max-width: 1300px;
+    min-height: 173px ;
+    
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0px 0px 0px;
+    -ms-box-orient: horizontal;
+
+    
+    
+    display: flex;
+    justify-content: space-around;
+    }
+
+      .shape {
+        flex-grow: 1;
+        width:80%
+      }
+.cl1{
+  padding-bottom: 0px;
+  }
+  .iconText {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 530px;
+    font-size: 23px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    text-align: center;
+  }
+  span.iconBDtext {
+    margin-left: -41px;
+  }
+  .iconCusttext {
+    margin-left: 86px;
+  }
+  .iconItsFreetext {
+    margin-left: 100px;
+  }
+  .shape12{
+    position: static;
+    
+  }
+  .prePage {
+    display: none;
+  }
+  .nextPage{
+    display: none;
+  }
+}
